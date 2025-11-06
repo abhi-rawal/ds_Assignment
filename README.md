@@ -40,4 +40,15 @@ Analyze how **trader performance metrics (PnL, leverage, trade size, direction)*
 ---
 
 ##  Repository Structure
-
+ds_YourName/
+├── ds_analysis.py / notebook_1.ipynb
+├── csv_files/
+│ ├── historical_data.csv
+│ └── fear_greed_index.csv
+├── outputs/
+│ ├── avg_pnl_by_sentiment.png
+│ ├── size_usd_by_sentiment.png
+│ ├── trade_side_distribution.png
+│ └── correlation_heatmap.png
+├── ds_report.pdf
+└── README.md
